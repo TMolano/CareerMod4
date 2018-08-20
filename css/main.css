@@ -1,0 +1,52 @@
+#logo {
+  height: 10rem; }
+
+#banner {
+  width: 60%;
+  height: 10rem; }
+
+#social {
+  width: 6rem; }
+  #social img {
+    width: 3rem; }
+
+#woodworking-home, #howto-home, #resource-home {
+  background: #176A90;
+  width: 45%;
+  height: 10rem;
+  margin-bottom: 1rem; }
+
+#wwg-h1, #ht-h1, #res-h1 {
+  font-family: "Ava Meridian", Arial, serif;
+  font-size: 1.5rem; }
+
+body {
+  background: #0B3E5F;
+  color: white; }
+
+header {
+  overflow: auto;
+  background: #115478;
+  margin-bottom: 5rem; }
+  header div {
+    display: flex; }
+
+nav {
+  font-family: "Ava Meridian", Arial, serif;
+  border: 1px solid white; }
+
+ul {
+  list-style: none;
+  width: 70%;
+  margin: 0 auto; }
+
+a {
+  color: white; }
+  a:hover {
+    color: gold;
+    text-decoration: none; }
+
+html {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0; }

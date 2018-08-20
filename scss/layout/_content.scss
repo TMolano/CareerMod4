@@ -1,0 +1,26 @@
+#logo{
+  height: 10rem;
+}
+
+#banner{
+  width: 60%;
+  height: 10rem;
+
+}
+
+#social{
+  width: 6rem;
+  img {
+    width: 3rem;
+  }
+}
+
+#woodworking-home, #howto-home, #resource-home{
+  @include home-content(#176A90, 45%, 10rem);
+  margin-bottom: 1rem;
+}
+
+#wwg-h1, #ht-h1, #res-h1{
+  font-family: $mainfont;
+  font-size: 1.5rem;
+}

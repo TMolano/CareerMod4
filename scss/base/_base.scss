@@ -1,0 +1,39 @@
+body{
+  background: #0B3E5F;
+  color: white;
+}
+
+header{
+  overflow: auto;
+  background: #115478;
+  margin-bottom: 5rem;
+  div{
+    display: flex;
+  }
+}
+
+nav{
+  font-family: $mainfont;
+  border: 1px solid white;
+}
+
+ul{
+  list-style: none;
+  width: 70%;
+  margin: 0 auto;
+}
+
+a{
+  color: white;
+
+  &:hover{
+    color: gold;
+    text-decoration: none;
+  }
+}
+
+html{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
