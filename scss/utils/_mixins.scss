@@ -9,8 +9,7 @@
 }
 
 
-@mixin home-content($bg, $width, $height){
-  background: $bg;
+@mixin home-content($width, $height){
   width: $width;
   height: $height;
 }

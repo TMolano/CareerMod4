@@ -15,12 +15,18 @@
   }
 }
 
-#woodworking-home, #howto-home, #resource-home{
-  @include home-content(#176A90, 45%, 10rem);
-  margin-bottom: 1rem;
+.content-home{
+  @include home-content(100%, 10rem);
+  margin-bottom: 3rem;
 }
 
-#wwg-h1, #ht-h1, #res-h1{
+.content-h1{
   font-family: $mainfont;
   font-size: 1.5rem;
+}
+
+.content-home-bg{
+  background: #176A90;
+  width: 100%;
+  height: 100%;
 }
