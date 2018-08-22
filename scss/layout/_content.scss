@@ -1,17 +1,18 @@
 #logo{
-  height: 10rem;
+ height: 3rem;
+  border: 1px solid red;
 }
 
 #banner{
-  width: 60%;
-  height: 10rem;
+  width: 50%;
+  height: 3rem;
 
 }
 
 #social{
-  width: 6rem;
+  width: 3rem;
   img {
-    width: 3rem;
+    width: 2rem;
   }
 }
 
@@ -26,7 +27,7 @@
 
 .content-h1{
   font-family: $mainfont;
-  font-size: 1.5rem;
+  font-size: .5rem;
 }
 
 .content-home-bg{
@@ -41,14 +42,14 @@
 
 .content-article{
   width: calc(100% / 3.3);
-  margin-right: 1rem;
+  margin-right: .5rem;
   height: 100%;
 }
 
 .content-h2{
   background: #176A90;
   font-family: $pfont;
-  font-size: 1rem;
+  font-size: .3rem;
   padding: 0.2rem;
 }
 

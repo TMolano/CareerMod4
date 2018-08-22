@@ -14,7 +14,15 @@ header{
 
 nav{
   font-family: $mainfont;
-  border: 1px solid white;
+
+  a{
+    color: white;
+    font-size: 0.8rem;
+
+    &:hover{
+      background: gold;
+    }
+  }
 }
 
 ul{
@@ -22,15 +30,9 @@ ul{
   margin: 0 auto;
 }
 
-a{
-  color: white;
-
-  &:hover{
-    color: gold;
-    text-decoration: none;
-  }
+.active{
+  color: gold;
 }
-
 html{
   margin: 0;
   box-sizing: border-box;
