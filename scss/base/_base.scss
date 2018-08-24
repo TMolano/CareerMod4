@@ -18,8 +18,15 @@ header{
   a{
     color: white;
     font-size: 0.8rem;
+<<<<<<< HEAD
     border-bottom: 1px solid white;
 
+=======
+
+    &:hover{
+      background: gold;
+    }
+>>>>>>> 1b6f7bdcd3a5790e4d220e8a7a2eb741d3525fed
   }
 }
 
@@ -28,6 +35,12 @@ ul{
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
+=======
+.active{
+  color: gold;
+}
+>>>>>>> 1b6f7bdcd3a5790e4d220e8a7a2eb741d3525fed
 html{
   margin: 0;
   box-sizing: border-box;
