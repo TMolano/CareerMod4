@@ -6,15 +6,21 @@ body{
 header{
   overflow: auto;
   background: #115478;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   div{
     display: flex;
   }
 }
 
-nav{
+.navbar-nav{
   font-family: $mainfont;
-  border: 1px solid white;
+
+  a{
+    color: white;
+    font-size: 0.8rem;
+    border-bottom: 1px solid white;
+
+  }
 }
 
 ul{
@@ -22,17 +28,18 @@ ul{
   margin: 0 auto;
 }
 
-a{
-  color: white;
-
-  &:hover{
-    color: gold;
-    text-decoration: none;
-  }
-}
-
 html{
   margin: 0;
   box-sizing: border-box;
   padding: 0;
 }
+
+h1{
+  font-family: $mainfont;
+  font-size: 1rem;
+}
+
+footer{
+
+}
+

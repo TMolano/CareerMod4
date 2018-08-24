@@ -9,29 +9,48 @@
     <link rel="stylesheet" href="../../css/main.css" />
 </head>
 <header>
-    <div class="row">
+    <div class="container-fluid">
         <h1>
-            <a><img id="logo" class="col" src="../../images/logo.png" alt="The Workshop Logo"></a>
+            <a href="/"><img id="logo" src="../../images/logo.png" alt="The Workshop Logo"></a>
         </h1>
-        <img id="banner" class="col" src="../../images/banner.png" alt="The Workshop Banner">
-        <ul class="col" id="social">
-            <li><a href="https://facebook.com"><img src="../../images/social/facebook.png" alt="facebook link"></a></li>
-            <li><a href="https://twitter.com"><img src="../../images/social/twitter.png" alt="twitter link"></a></li>
-            <li><a href="https://youtube.com"><img src="../../images/social/youtube.png" alt="youtube link"></a></li>
-        </ul>
+        <h2>
+            <img id="banner" src="../../images/banner.png" alt="The Workshop Banner">
+        </h2>
     </div>
-    <nav>
-        <ul class="navbar">
-            <li><a href="/">Home</a></li>
-            <li><a href="../../html/Woodworking_Guide/index.html">Woodworking Guide</a></li>
-            <li><a href="../../html/How-To_Projects/index.html">How-To Projects</a></li>
-            <li><a href="../../html/Resources/index.html">Resources</a></li>
-            <li><a href="../../html/About/index.html">About</a></li>
-            <li><a href="../../html/Contact/index.html">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-sm justify-content-center navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggle">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="/">Home</a>
+                    <a class="nav-item nav-link" href="../../html/Woodworking_Guide/index.html">Woodworking Guide</a>
+                    <a class="nav-item nav-link active" href="../../html/How-To_Projects/index.html">How-To Projects</a>
+                    <a class="nav-item nav-link" href="../../html/Resources/index.html">Resources</a>
+                    <a class="nav-item nav-link" href="../../html/About/index.html">About</a>
+                    <a class="nav-item nav-link" href="../../html/Contact/index.html">Contact</a>
+                </div><!--navbar-->
+            </div><!--collapse-->
+            <ul class="list-unstyled row" id="social">
+                <li><a href="https://facebook.com"><img src="../../images/social/facebook.png" alt="facebook link"></a></li>
+                <li><a href="https://twitter.com"><img src="../../images/social/twitter.png" alt="twitter link"></a></li>
+                <li><a href="https://youtube.com"><img src="../../images/social/youtube.png" alt="youtube link"></a></li>
+            </ul>
+        </div><!--container-->
     </nav>
 </header>
 <body>
-
+<div class="container">
+    <h1 class="text-center">How-To Projects</h1>
+    <p class="page-description"></p>
+</div>
 </body>
+<footer>
+
+</footer>
+<script src="../../node_modules/jquery/dist/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/index.js"></script>
 </html>
