@@ -18,7 +18,6 @@ header{
   a{
     color: white;
     font-size: 0.8rem;
-    border-bottom: 1px solid white;
 
   }
 }
@@ -34,9 +33,56 @@ html{
   padding: 0;
 }
 
+p{
+  font-family: $pfont;
+  font-size: .7rem;
+}
+
 h1{
   font-family: $mainfont;
   font-size: 1rem;
+}
+h2{
+  font-family: $pfont;
+  font-size: 1rem;
+
+  a{
+    color: white;
+    font-family: $mainfont;
+  }
+}
+
+h3{
+  font-size: 2rem;
+}
+
+.card{
+  margin-bottom: 1rem;
+  color: black;
+
+}
+
+.card-block{
+  padding: 0.5rem;
+  background: #062847;
+
+}
+
+.card-header{
+  background: #176A90;
+}
+
+i {
+  float: right;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 footer{

@@ -9,7 +9,6 @@
 }
 
 
-@mixin home-content($width, $height){
+@mixin home-content($width){
   width: $width;
-  height: $height;
 }
