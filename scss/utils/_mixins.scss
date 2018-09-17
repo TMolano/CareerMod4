@@ -5,6 +5,9 @@
   @else if $displayNav == tablet {
     @media (min-width: 701px) and (max-width: 1159px){@content;}
   }
+  @else if $displayNav == pc {
+    @media (min-width: 1160px) and (max-width: 1440px){@content;}
+  }
 
 }
 
@@ -12,3 +15,5 @@
 @mixin home-content($width){
   width: $width;
 }
+
+

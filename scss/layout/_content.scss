@@ -27,8 +27,14 @@
 }
 
 .content-home{
-  @include home-content(100%);
   margin-bottom: 3rem;
+  @include nav(tablet){
+    width: 50%;
+  }
+  @include nav(pc){
+    width: 30%;
+    float: left;
+  }
 }
 
 .content-h1{
@@ -44,6 +50,23 @@
 .content-images{
   width: 100%;
   height: 8rem;
+  @include nav(tablet){
+    height: 12rem;
+  }
+  @include nav(pc){
+   height: 15rem;
+  }
+}
+
+.content-images-recent{
+  width: 100%;
+  height: 5rem;
+  @include nav(tablet){
+    height: 8rem;
+  }
+  @include nav(pc){
+    height: 10rem;
+  }
 }
 
 .content-article{
@@ -52,6 +75,17 @@
   h2{
     font-family: $mainfont;
     font-size: 14px;
+    padding-top: .5rem;
+  }
+
+}
+
+.content-article-recent{
+  width: 50%;
+
+  h2{
+    font-family: $mainfont;
+    font-size: .7rem;
     padding-top: .5rem;
   }
 
@@ -75,6 +109,13 @@
   margin: .4rem;
   background: #176A90;
   border-radius: .5rem;
+  @include nav(tablet){
+    width: 30%;
+  }
+  @include nav(pc){
+    width: 20%;
+  }
+
 
   img{
     width: 100%;
@@ -95,20 +136,28 @@
   background: #176A90;
   margin: .4rem;
   border-radius: .5rem;
+  @include nav(tablet){
+    width: 45%;
+  }
+  @include nav(pc){
+    width: 45%;
+  }
 
-
-  img{
+  img {
     width: 50%;
-    height: 100%;
+    height: 5rem;
+
   }
   h3, h4{
     color: white;
     font-size: .65rem;
     font-family: $pfont;
+    width: 100%;
   }
 
   h4{
     font-size: .4rem;
+    width: 100%;
   }
 
 }
@@ -119,10 +168,26 @@
 
 #about, #contact{
   background: #062847;
-  height: 20rem;
+  height: 100%;
 
   h2{
     font-family: $mainfont;
   }
 
 }
+
+.card-header{
+  color: white;
+}
+
+input{
+  background: #17903D;
+  color: white;
+}
+
+#feedback{
+  font-size: 1rem;
+  font-family: $pfont;
+  color: white;
+}
+

@@ -46,9 +46,23 @@
     <h1 class="text-center">Contact</h1>
 </div>
 
-<div id="contact">
-<p id="contact-info"></p>
-</div>
+<form class="container" id="contact">
+    <div class="form-group">
+        <p class="pt-1" id="contact-info"></p>
+        <p id="methods"></p>
+        <label class="form-control-label" for="name">Name</label>
+        <input class="form-control" type="text" id="name"/>
+        <label class="form-control-label" for="email">Email</label>
+        <input class="form-control" type="email" id="email"/>
+        <label class="form-control-label" for="comments">Comments</label>
+        <textarea class="form-control" id="comments" rows="5"></textarea>
+
+        <input class="bg-primary btn d-block mx-auto mt-3" id="submit" type="button" value="Submit">
+        <p class="bg-success text-center" id="feedback"></p>
+    </div>
+</form>
+
+
 </body>
 <footer>
 

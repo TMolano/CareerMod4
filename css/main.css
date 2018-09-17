@@ -21,8 +21,14 @@
   background: white; }
 
 .content-home {
-  width: 100%;
   margin-bottom: 3rem; }
+  @media (min-width: 701px) and (max-width: 1159px) {
+    .content-home {
+      width: 50%; } }
+  @media (min-width: 1160px) and (max-width: 1440px) {
+    .content-home {
+      width: 30%;
+      float: left; } }
 
 .content-h1 {
   font-family: "Ava Meridian", Arial, serif;
@@ -35,12 +41,35 @@
 .content-images {
   width: 100%;
   height: 8rem; }
+  @media (min-width: 701px) and (max-width: 1159px) {
+    .content-images {
+      height: 12rem; } }
+  @media (min-width: 1160px) and (max-width: 1440px) {
+    .content-images {
+      height: 15rem; } }
+
+.content-images-recent {
+  width: 100%;
+  height: 5rem; }
+  @media (min-width: 701px) and (max-width: 1159px) {
+    .content-images-recent {
+      height: 8rem; } }
+  @media (min-width: 1160px) and (max-width: 1440px) {
+    .content-images-recent {
+      height: 10rem; } }
 
 .content-article {
   width: 75%; }
   .content-article h2 {
     font-family: "Ava Meridian", Arial, serif;
     font-size: 14px;
+    padding-top: .5rem; }
+
+.content-article-recent {
+  width: 50%; }
+  .content-article-recent h2 {
+    font-family: "Ava Meridian", Arial, serif;
+    font-size: .7rem;
     padding-top: .5rem; }
 
 .content-h2 {
@@ -59,6 +88,12 @@
   margin: .4rem;
   background: #176A90;
   border-radius: .5rem; }
+  @media (min-width: 701px) and (max-width: 1159px) {
+    .accordian-articles {
+      width: 30%; } }
+  @media (min-width: 1160px) and (max-width: 1440px) {
+    .accordian-articles {
+      width: 20%; } }
   .accordian-articles img {
     width: 100%;
     height: 80%; }
@@ -74,24 +109,44 @@
   background: #176A90;
   margin: .4rem;
   border-radius: .5rem; }
+  @media (min-width: 701px) and (max-width: 1159px) {
+    .accordian-articles-resources {
+      width: 45%; } }
+  @media (min-width: 1160px) and (max-width: 1440px) {
+    .accordian-articles-resources {
+      width: 45%; } }
   .accordian-articles-resources img {
     width: 50%;
-    height: 100%; }
+    height: 5rem; }
   .accordian-articles-resources h3, .accordian-articles-resources h4 {
     color: white;
     font-size: .65rem;
-    font-family: "Euphemia UCAS", Arial, serif; }
+    font-family: "Euphemia UCAS", Arial, serif;
+    width: 100%; }
   .accordian-articles-resources h4 {
-    font-size: .4rem; }
+    font-size: .4rem;
+    width: 100%; }
 
 #avatar {
   width: 50%; }
 
 #about, #contact {
   background: #062847;
-  height: 20rem; }
+  height: 100%; }
   #about h2, #contact h2 {
     font-family: "Ava Meridian", Arial, serif; }
+
+.card-header {
+  color: white; }
+
+input {
+  background: #17903D;
+  color: white; }
+
+#feedback {
+  font-size: 1rem;
+  font-family: "Euphemia UCAS", Arial, serif;
+  color: white; }
 
 body {
   background: #0B3E5F;
@@ -122,6 +177,12 @@ html {
 p {
   font-family: "Euphemia UCAS", Arial, serif;
   font-size: .7rem; }
+
+label {
+  font-family: "Euphemia UCAS", Arial, serif; }
+
+input {
+  margin-bottom: 1rem; }
 
 h1 {
   font-family: "Ava Meridian", Arial, serif;
