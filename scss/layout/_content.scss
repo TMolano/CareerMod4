@@ -162,7 +162,7 @@
 }
 
 #avatar{
-  width: 50%;
+  width: 30%;
 }
 
 #about, #contact{
@@ -190,3 +190,13 @@ input{
   color: white;
 }
 
+#contact-info{
+  font-size: 1.5rem;
+}
+
+#methods{
+  a, p{
+    font-size: 1rem;
+  }
+
+}

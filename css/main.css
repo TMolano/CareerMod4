@@ -127,7 +127,7 @@
     width: 100%; }
 
 #avatar {
-  width: 50%; }
+  width: 30%; }
 
 #about, #contact {
   background: #062847;
@@ -146,6 +146,12 @@ input {
   font-size: 1rem;
   font-family: "Euphemia UCAS", Arial, serif;
   color: white; }
+
+#contact-info {
+  font-size: 1.5rem; }
+
+#methods a, #methods p {
+  font-size: 1rem; }
 
 body {
   background: #0B3E5F;
