@@ -27,8 +27,7 @@
       width: 50%; } }
   @media (min-width: 1160px) and (max-width: 1440px) {
     .content-home {
-      width: 30%;
-      float: left; } }
+      width: 30%; } }
 
 .content-h1 {
   font-family: "Ava Meridian", Arial, serif;
