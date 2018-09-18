@@ -17,8 +17,10 @@ header{
 
   a{
     color: white;
-    font-size: 0.8rem;
-
+    font-size: 1rem;
+    @include nav(tablet){
+      font-size: 0.7rem;
+    }
   }
 }
 

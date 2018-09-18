@@ -16,6 +16,10 @@
     width: 2rem;
     padding: .1rem;
     margin-right: 1rem; }
+    @media (min-width: 701px) and (max-width: 1159px) {
+      #social img {
+        width: 1rem;
+        margin-right: .5rem; } }
 
 .article-thumb {
   background: white; }
@@ -27,7 +31,7 @@
       width: 50%; } }
   @media (min-width: 1160px) and (max-width: 1440px) {
     .content-home {
-      width: 30%; } }
+      width: 100%; } }
 
 .content-h1 {
   font-family: "Ava Meridian", Arial, serif;
@@ -151,7 +155,16 @@ input {
   font-size: 1.5rem; }
 
 #methods a, #methods p {
-  font-size: 1rem; }
+  font-size: .9rem; }
+
+.form-control {
+  width: 100%; }
+
+.contact-form {
+  width: 50%; }
+  @media (min-width: 320px) and (max-width: 700px) {
+    .contact-form {
+      width: 75%; } }
 
 body {
   background: #0B3E5F;
@@ -168,7 +181,10 @@ header {
   font-family: "Ava Meridian", Arial, serif; }
   .navbar-nav a {
     color: white;
-    font-size: 0.8rem; }
+    font-size: 1rem; }
+    @media (min-width: 701px) and (max-width: 1159px) {
+      .navbar-nav a {
+        font-size: 0.7rem; } }
 
 ul {
   width: 70%;

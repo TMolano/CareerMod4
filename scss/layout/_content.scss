@@ -19,6 +19,10 @@
     width: 2rem;
     padding: .1rem;
     margin-right: 1rem;
+    @include nav(tablet){
+      width: 1rem;
+      margin-right: .5rem;
+    }
   }
 }
 
@@ -32,7 +36,7 @@
     width: 50%;
   }
   @include nav(pc){
-    width: 30%;
+    width: 100%;
   }
 }
 
@@ -196,7 +200,18 @@ input{
 
 #methods{
   a, p{
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
+}
+
+.form-control {
+  width: 100%;
+}
+
+.contact-form{
+  width: 50%;
+  @include nav(mobile){
+    width: 75%;
+  }
 }
