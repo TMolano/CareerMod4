@@ -11,12 +11,12 @@
 <header>
     <div class="container-fluid">
         <h1>
-            <a href="index.html"><img id="logo" src="../../images/logo2.png" alt="The Workshop Logo"></a>
+            <a href="../../index.html"><img id="logo" src="../../images/logo2.png" alt="The Workshop Logo"></a>
         </h1>
         <h2>
             <img id="banner" src="../../images/banner.png" alt="The Workshop Banner">
         </h2>
-    </div>
+    </div><!--container-fluid-->
     <nav class="navbar navbar-expand-sm justify-content-center navbar-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
@@ -25,7 +25,7 @@
 
             <div class="collapse navbar-collapse" id="navbarToggle">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="/">Home</a>
+                    <a class="nav-item nav-link" href="../../index.html">Home</a>
                     <a class="nav-item nav-link" href="../../html/Woodworking_Guide/index.html">Woodworking Guide</a>
                     <a class="nav-item nav-link" href="../../html/How-To_Projects/index.html">How-To Projects</a>
                     <a class="nav-item nav-link" href="../../html/Resources/index.html">Resources</a>
@@ -34,44 +34,44 @@
                 </div><!--navbar-->
             </div><!--collapse-->
             <ul class="list-unstyled row" id="social">
-                <li><a href="https://facebook.com"><img src="../../images/social/facebook.png" alt="facebook link"></a></li>
-                <li><a href="https://twitter.com"><img src="../../images/social/twitter.png" alt="twitter link"></a></li>
-                <li><a href="https://youtube.com"><img src="../../images/social/youtube.png" alt="youtube link"></a></li>
+                <li><a href="https://facebook.com"><img src="../../images/social/facebook.png" alt="facebook link logo"></a></li>
+                <li><a href="https://twitter.com"><img src="../../images/social/twitter.png" alt="twitter link logo"></a></li>
+                <li><a href="https://youtube.com"><img src="../../images/social/youtube.png" alt="youtube link logo"></a></li>
             </ul>
         </div><!--container-->
     </nav>
 </header>
 <body>
-<div class="container">
-    <h1 class="text-center">Contact</h1>
-</div>
-
-<form class="container" id="contact">
-    <div class="form-group">
-        <p class="pt-1 text-center" id="contact-info"></p>
-        <p class="text-center" id="methods"></p>
-        <div class="mx-auto contact-form">
-        <label class="form-control-label" for="name">Name</label>
-        <input class="form-control" type="text" id="name"/>
-        </div>
-        <div class="mx-auto contact-form">
-        <label class="form-control-label" for="email">Email</label>
-        <input class="form-control" type="email" id="email"/>
-        </div>
-        <div class="mx-auto contact-form">
-        <label class="form-control-label" for="comments">Comments</label>
-        <textarea class="form-control" id="comments" rows="5"></textarea>
-        </div>
-
-        <input class="bg-primary btn d-block mx-auto mt-3" id="submit" type="button" value="Submit">
-        <p class="bg-success text-center" id="feedback"></p>
+<div class="wrapper">
+    <div class="container">
+        <h1 class="text-center">Contact</h1>
     </div>
-</form>
+    <form class="container" id="contact">
+        <div class="form-group">
+            <p class="pt-1 text-center" id="contact-info"></p>
+            <p class="text-center" id="methods"></p>
+            <div class="mx-auto contact-form">
+                <label class="form-control-label" for="name">Name</label>
+                <input class="form-control" type="text" id="name"/>
+            </div>
+            <div class="mx-auto contact-form">
+                <label class="form-control-label" for="email">Email</label>
+                <input class="form-control" type="email" id="email"/>
+            </div>
+            <div class="mx-auto contact-form">
+                <label class="form-control-label" for="comments">Comments</label>
+                <textarea class="form-control" id="comments" rows="5"></textarea>
+            </div>
 
-
+            <input class="bg-primary btn d-block mx-auto mt-3" id="submit" type="button" value="Submit">
+            <p class="bg-success text-center" id="feedback"></p>
+        </div>
+    </form>
+</div><!--wrapper-->
 </body>
-<footer>
-    <p class="text-center fixed-bottom">&copy Trevor Molano, Full Sail University, 2018</p>
+<div class="push"></div>
+<footer class="footer">
+    <p class="text-center">&copy Trevor Molano, Full Sail University, 2018</p>
 </footer>
 <script src="../../node_modules/jquery/dist/jquery.js"></script>
 <script src="../../js/bootstrap.min.js"></script>

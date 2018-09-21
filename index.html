@@ -11,12 +11,16 @@
 <header>
     <div class="container-fluid">
         <h1>
-            <a href="index.html"><img id="logo" src="images/logo2.png" alt="The Workshop Logo"></a>
+            <a href="index.html"><img id="logo" src="images/logo2_mobile.png" alt="The Workshop Logo"
+                                      srcset="images/logo2_mobile.png 640w, images/logo2.png 1216w"
+                                      sizes="(min-width:320px) 100vw, (min-width:768px) 100vw"></a>
         </h1>
         <h2>
-            <img id="banner" src="images/banner.png" alt="The Workshop Banner">
+            <img id="banner" src="images/banner_mobile.png" alt="The Workshop Banner"
+                 srcset="images/banner_mobile.png 320w, images/banner.png 1038w"
+                 sizes="(min-width:320px) 100vw, (min-width:768px) 100vw">
         </h2>
-    </div>
+    </div><!--container-fluid-->
     <nav class="navbar navbar-expand-sm justify-content-center navbar-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
@@ -33,73 +37,76 @@
                     <a class="nav-item nav-link" href="html/Contact/index.html">Contact</a>
                 </div><!--navbar-->
             </div><!--collapse-->
+            <div class="container">
             <ul class="list-unstyled row" id="social">
-                <li><a href="https://facebook.com"><img src="images/social/facebook.png" alt="facebook link"></a></li>
-                <li><a href="https://twitter.com"><img src="images/social/twitter.png" alt="twitter link"></a></li>
-                <li><a href="https://youtube.com"><img src="images/social/youtube.png" alt="youtube link"></a></li>
+                <li class="col-4"><a href="https://facebook.com"><img src="images/social/facebook.png" alt="facebook link logo"></a></li>
+                <li class="col-4"><a href="https://twitter.com"><img src="images/social/twitter.png" alt="twitter link logo"></a></li>
+                <li class="col-4"><a href="https://youtube.com"><img src="images/social/youtube.png" alt="youtube link logo"></a></li>
             </ul>
+            </div>
         </div><!--container-->
     </nav>
 </header>
 <body>
-<div class="container">
-    <div class="row">
-        <section class="content-home mx-auto col-sm-7">
-            <h1 class="content-h1">Woodworking Guide</h1>
-            <div class="content-home-bg">
-                <article class="content-article mx-auto">
-                    <a href=""><img src="images/content/jigsaw.jpg" alt="" class="content-images"></a>
-                </article>
-            </div>
-        </section>
-        <section class="content-home mx-auto col-sm-7">
-            <h1 class="content-h1">How-to Projects</h1>
-            <div class="content-home-bg mx-auto">
-                <article class="content-article mx-auto">
-                    <a href=""><img src="images/content/Easy_Woodworking_Projects01.jpg" alt="" class="content-images"></a>
-                </article>
-            </div>
-        </section>
-        <section class="content-home mx-auto col-sm-7">
-            <h1 class="content-h1">Resources</h1>
-            <div class="content-home-bg mx-auto">
-                <article class="content-article mx-auto">
-                    <a href=""><img src="images/content/SIP-35-cover-image-main.jpg" alt="" class="content-images"></a>
-                </article>
-            </div>
-        </section>
-    </div>
-</div>
-<div class="container">
-    <section class="content-home mx-auto">
+<div class="wrapper">
+    <div class="container">
+        <div class="row">
+            <section class="content-home mx-auto col-sm-7 col-lg-4">
+                <h1 class="content-h1">Woodworking Guide</h1>
+                <div class="content-home-bg">
+                    <article class="content-article mx-auto">
+                        <a class="insert-images-home" href="html/Woodworking_Guide/index.html"><img src="" alt=""></a>
+                    </article>
+                </div>
+            </section>
+            <section class="content-home mx-auto col-sm-7 col-lg-4">
+                <h1 class="content-h1">How-to Projects</h1>
+                <div class="content-home-bg mx-auto">
+                    <article class="content-article mx-auto">
+                        <a class="insert-images-home" href="html/How-To_Projects/index.html"><img src="" alt=""></a>
+                    </article>
+                </div>
+            </section>
+            <section class="content-home mx-auto col-sm-7 col-lg-4">
+                <h1 class="content-h1">Resources</h1>
+                <div class="content-home-bg mx-auto">
+                    <article class="content-article mx-auto">
+                        <a class="insert-images-home" href="html/Resources/index.html"><img src="" alt="" class="content-images"></a>
+                    </article>
+                </div>
+            </section>
+        </div><!--row-->
+    </div><!--container-->
+    <div class="container">
+        <section class="content-home mx-auto">
             <h1 class="content-h1">Recent Posts</h1>
             <div class="content-home-bg mx-auto row">
-                <article class="content-article-recent mx-auto col-7 col-lg-2">
-                    <a href=""><img src="images/content/farmhouse-dining-table.jpg" alt="" class="content-images-recent"></a>
+                <article class="content-article-recent mx-auto col-7 col-lg-2 col-xl-2">
+                    <a class="insert-images-home" href=""><img src="" alt="" class="content-images-recent"></a>
                     <h2>DIY Farmhouse Table</h2>
                 </article>
-                <article class="content-article-recent mx-auto col-7 col-lg-2">
-                    <a href=""><img src="images/content/dovetail.jpg" alt="" class="content-images-recent article-thumb"></a>
+                <article class="content-article-recent mx-auto col-7 col-lg-2 col-xl-2">
+                    <a class="insert-images-home" href=""><img src="" alt="" class="content-images-recent article-thumb"></a>
                     <h2>How to create a Dovetail cut</h2>
                 </article>
-                <article class="content-article-recent mx-auto col-7 col-lg-2">
-                    <a href=""><img src="images/content/handtools.jpg" alt="" class="content-images-recent article-thumb"></a>
+                <article class="content-article-recent mx-auto col-7 col-lg-2 col-xl-2">
+                    <a class="insert-images-home" href=""><img src="" alt="" class="content-images-recent article-thumb"></a>
                     <h2>Guide to handheld tools</h2>
                 </article>
-                <article class="content-article-recent mx-auto col-7 col-lg-2">
-                    <a href=""><img src="images/content/tools.jpg" alt="" class="content-images-recent article-thumb"></a>
+                <article class="content-article-recent mx-auto col-7 col-lg-2 col-xl-2">
+                    <a class="insert-images-home" href=""><img src="" alt="" class="content-images-recent article-thumb"></a>
                     <h2>Top 10 power tools</h2>
                 </article>
-                <article class="content-article-recent mx-auto col-7 col-lg-2">
-                    <a href=""><img src="images/content/arch-top.jpg" alt="" class="content-images-recent article-thumb"></a>
+                <article class="content-article-recent mx-auto col-7 col-lg-2 col-xl-2">
+                    <a class="insert-images-home" href=""><img src="" alt="" class="content-images-recent article-thumb"></a>
                     <h2>How to build a gate</h2>
                 </article>
             </div>
         </section>
-</div>
-<!-- container -->
-
-<footer>
+    </div><!-- container -->
+</div><!--wrapper-->
+<div class="push"></div>
+<footer class="footer">
     <p class="text-center">&copy Trevor Molano, Full Sail University, 2018</p>
 </footer>
 </body>

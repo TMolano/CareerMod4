@@ -1,6 +1,10 @@
-body{
+body, html{
   background: #0B3E5F;
   color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 header{
@@ -17,9 +21,12 @@ header{
 
   a{
     color: white;
-    font-size: 1rem;
+    font-size: 0.7rem;
     @include nav(tablet){
       font-size: 0.7rem;
+    }
+    @include nav(pc){
+      font-size: 1rem;
     }
   }
 }
@@ -29,15 +36,13 @@ ul{
   margin: 0 auto;
 }
 
-html{
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-}
-
 p{
   font-family: $pfont;
   font-size: .7rem;
+}
+
+a{
+  cursor: pointer;
 }
 
 label{
@@ -94,5 +99,4 @@ i {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-
 

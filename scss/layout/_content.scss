@@ -13,14 +13,11 @@
 }
 
 #social{
-  width: fit-content;
-
+  width: 100%;
   img {
     width: 2rem;
     padding: .1rem;
-    margin-right: 1rem;
     @include nav(tablet){
-      width: 1rem;
       margin-right: .5rem;
     }
   }
@@ -33,7 +30,7 @@
 .content-home{
   margin-bottom: 3rem;
   @include nav(tablet){
-    width: 50%;
+    width: 100%;
   }
   @include nav(pc){
     width: 100%;
@@ -87,8 +84,8 @@
   width: 50%;
 
   h2{
-    font-family: $mainfont;
-    font-size: .7rem;
+    font-family: $pfont;
+    font-size: 1rem;
     padding-top: .5rem;
   }
 
@@ -104,6 +101,12 @@
 .page-description{
   font-family: $pfont;
   font-size: .7rem;
+  @include nav(tablet){
+    font-size: 1rem ;
+  }
+  @include nav(pc){
+    font-size: 1rem ;
+  }
 }
 
 .accordian-articles{
@@ -112,6 +115,9 @@
   margin: .4rem;
   background: #176A90;
   border-radius: .5rem;
+  &:hover{
+    background: #13A2E5;
+  }
   @include nav(tablet){
     width: 30%;
   }
@@ -133,85 +139,102 @@
   }
 }
 
-.accordian-articles-resources{
-  width: 95%;
+.accordian-articles-resources {
+  width: 100%;
   height: 5rem;
   background: #176A90;
-  margin: .4rem;
+  margin-bottom: 1rem;
   border-radius: .5rem;
-  @include nav(tablet){
-    width: 45%;
+
+  &:hover{
+    background: #13A2E5;
   }
-  @include nav(pc){
-    width: 45%;
+  @include nav(pc) {
+    width: 100%;
+    height: 7rem;
   }
 
   img {
     width: 50%;
     height: 5rem;
-
+    @include nav(pc) {
+      height: 7rem;
+    }
   }
-  h3, h4{
+  h3, h4 {
     color: white;
-    font-size: .65rem;
+    padding: .2rem;
+    font-size: .7rem;
     font-family: $pfont;
     width: 100%;
+    @include nav(pc) {
+      font-size: 1rem;
+    }
   }
-
-  h4{
-    font-size: .4rem;
+  h4 {
+    font-size: .2rem;
     width: 100%;
-  }
-
-}
-
-#avatar{
-  width: 30%;
-}
-
-#about, #contact{
-  background: #062847;
-  height: 100%;
-
-  h2{
-    font-family: $mainfont;
-  }
-
-}
-
-.card-header{
-  color: white;
-}
-
-input{
-  background: #17903D;
-  color: white;
-}
-
-#feedback{
-  font-size: 1rem;
-  font-family: $pfont;
-  color: white;
-}
-
-#contact-info{
-  font-size: 1.5rem;
-}
-
-#methods{
-  a, p{
-    font-size: .9rem;
-  }
-
-}
-
-.form-control {
-  width: 100%;
-}
-
-.contact-form{
-  width: 50%;
-  @include nav(mobile){
-    width: 75%;
+    @include nav(pc) {
+      font-size: .8rem;
+    }
   }
 }
+    #avatar {
+      width: 30%;
+    }
+
+    #about, #contact {
+      background: #062847;
+      height: 100%;
+
+      h2 {
+        font-family: $mainfont;
+      }
+
+    }
+
+    .card-header {
+      color: white;
+    }
+
+    input {
+      background: #17903D;
+      color: white;
+    }
+
+    #feedback {
+      font-size: 1rem;
+      font-family: $pfont;
+      color: white;
+    }
+
+    #contact-info {
+      font-size: 1.5rem;
+    }
+
+    #methods {
+      a, p {
+        font-size: .9rem;
+      }
+
+    }
+
+    .form-control {
+      width: 100%;
+    }
+
+    .contact-form {
+      width: 50%;
+      @include nav(mobile) {
+        width: 75%;
+      }
+    }
+
+    .wrapper {
+      min-height: 100%;
+      margin-bottom: -50px;
+    }
+
+    .footer, .push {
+      height: 50px;
+    }

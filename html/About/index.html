@@ -11,12 +11,12 @@
 <header>
     <div class="container-fluid">
         <h1>
-            <a href="index.html"><img id="logo" src="../../images/logo2.png" alt="The Workshop Logo"></a>
+            <a href="../../index.html"><img id="logo" src="../../images/logo2.png" alt="The Workshop Logo"></a>
         </h1>
         <h2>
             <img id="banner" src="../../images/banner.png" alt="The Workshop Banner">
         </h2>
-    </div>
+    </div><!--container-fluid-->
     <nav class="navbar navbar-expand-sm justify-content-center navbar-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
@@ -34,31 +34,33 @@
                 </div><!--navbar-->
             </div><!--collapse-->
             <ul class="list-unstyled row" id="social">
-                <li><a href="https://facebook.com"><img src="../../images/social/facebook.png" alt="facebook link"></a></li>
-                <li><a href="https://twitter.com"><img src="../../images/social/twitter.png" alt="twitter link"></a></li>
-                <li><a href="https://youtube.com"><img src="../../images/social/youtube.png" alt="youtube link"></a></li>
+                <li><a href="https://facebook.com"><img src="../../images/social/facebook.png" alt="facebook link logo"></a></li>
+                <li><a href="https://twitter.com"><img src="../../images/social/twitter.png" alt="twitter link logo"></a></li>
+                <li><a href="https://youtube.com"><img src="../../images/social/youtube.png" alt="youtube link logo"></a></li>
             </ul>
         </div><!--container-->
     </nav>
 </header>
 <body>
-<div class="container">
-    <h1 class="text-center">About</h1>
-    <div class="text-center d-block mx-auto"><img class="rounded-circle" id="avatar" src="/images/content/avatar.jpeg" alt=""></div>
-    <p class="text-center font-italic">Site Owner - Steve Jones</p>
-</div>
+<div class="wrapper">
+    <div class="container">
+        <h1 class="text-center">About</h1>
+        <div class="text-center d-block mx-auto"><img class="rounded-circle" id="avatar" src="/images/content/avatar.jpeg" alt="photo of the site owner"></div>
+        <p class="text-center font-italic">Site Owner - Steve Jones</p>
+    </div>
 
-<div class="container" id="about">
-    <h2 class="pt-2">The Site</h2>
-    <p id="about-description"></p>
-    <h2 class="pt-2">The Owner</h2>
-    <p id="owner"></p>
-</div>
+    <div class="container" id="about">
+        <h2 class="pt-2">The Site</h2>
+        <p id="about-description"></p>
+        <h2 class="pt-2">The Owner</h2>
+        <p id="owner"></p>
+    </div>
 
-
+</div><!--wrapper-->
 </body>
-<footer>
-    <p class="text-center fixed-bottom">&copy Trevor Molano, Full Sail University, 2018</p>
+<div class="push"></div>
+<footer class="footer">
+    <p class="text-center">&copy Trevor Molano, Full Sail University, 2018</p>
 </footer>
 <script src="../../node_modules/jquery/dist/jquery.js"></script>
 <script src="../../js/bootstrap.min.js"></script>

@@ -11,12 +11,12 @@
 <header>
     <div class="container-fluid">
         <h1>
-            <a href="index.html"><img id="logo" src="/images/logo2.png" alt="The Workshop Logo"></a>
+            <a href="../../index.html"><img id="logo" src="/images/logo2.png" alt="The Workshop Logo"></a>
         </h1>
         <h2>
             <img id="banner" src="../../images/banner.png" alt="The Workshop Banner">
         </h2>
-    </div>
+    </div><!--container-fluid-->
     <nav class="navbar navbar-expand-sm justify-content-center navbar-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
@@ -34,116 +34,119 @@
                 </div><!--navbar-->
             </div><!--collapse-->
             <ul class="list-unstyled row" id="social">
-                <li><a href="https://facebook.com"><img src="../../images/social/facebook.png" alt="facebook link"></a></li>
-                <li><a href="https://twitter.com"><img src="../../images/social/twitter.png" alt="twitter link"></a></li>
-                <li><a href="https://youtube.com"><img src="../../images/social/youtube.png" alt="youtube link"></a></li>
+                <li><a href="https://facebook.com"><img src="../../images/social/facebook.png" alt="facebook link logo"></a></li>
+                <li><a href="https://twitter.com"><img src="../../images/social/twitter.png" alt="twitter link logo"></a></li>
+                <li><a href="https://youtube.com"><img src="../../images/social/youtube.png" alt="youtube link logo"></a></li>
             </ul>
         </div><!--container-->
     </nav>
 </header>
 <body>
-<div class="container">
-    <h1 class="text-center">How-To Projects</h1>
-    <p class="page-description">
+<div class="wrapper">
+    <div class="container">
+        <h1 class="text-center">How-To Projects</h1>
+        <p class="page-description">
 
+    </div>
+
+    <div class="container" id="htp-accordian">
+
+        <div class="card">
+
+            <div class="card-header" id="beginner-heading" data-toggle="collapse" data-parent="#htp-accordian" href="#beginner">
+                <h2>
+                    <a>Beginner</a>
+                    <i class="arrow down"></i>
+                </h2>
+            </div><!--card header-->
+
+            <div class="collapse" id="beginner">
+                <div class="card-block row mx-auto">
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/bench.jpg" alt="photo of a wooden bench"></a>
+                        <h3 class="mx-auto">Bench</h3>
+                    </article>
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/shoeorg.jpg" alt="photo of a wooden shoe organizer"></a>
+                        <h3 class="mx-auto">Shoe Organizer</h3>
+                    </article>
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/storagecontainer.jpg" alt="photo of a wooden magazine holder"></a>
+                        <h3 class="mx-auto">Magazine Holder</h3>
+                    </article>
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/woodenchair.jpg" alt="photo of a wooden chair"></a>
+                        <h3 class="mx-auto">Chair</h3>
+                    </article>
+                </div><!--card-block-->
+            </div><!--collapse-->
+        </div><!--card-->
+        <div class="card">
+
+            <div class="card-header" id="intermediate-heading" data-toggle="collapse" data-parent="#htp-accordian" href="#intermediate">
+                <h2>
+                    <a>Intermediate</a>
+                    <i class="arrow down"></i>
+                </h2>
+            </div><!--card header-->
+
+            <div class="collapse" id="intermediate">
+                <div class="card-block row mx-auto">
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/farmhouse-dining-table.jpg" alt="photo of a wooden table"></a>
+                        <h3 class="mx-auto">Table</h3>
+                    </article>
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/reclaimed%20wood%20shelf%20diy03.jpg" alt="photo of a wooden storage shelf"></a>
+                        <h3 class="mx-auto">Storage Shelf</h3>
+                    </article>
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/lawnchair.jpg" alt="photo of a wooden lawn chair"></a>
+                        <h3 class="mx-auto">Lawn Chair</h3>
+                    </article>
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/storagebox.jpg" alt="photo of a wooden storage box"></a>
+                        <h3 class="mx-auto">Storage Box</h3>
+                    </article>
+                </div><!--card-block-->
+            </div><!--collapse-->
+        </div><!--card-->
+        <div class="card">
+
+            <div class="card-header" id="advanced-heading" data-toggle="collapse" data-parent="#htp-accordian" href="#advanced">
+                <h2>
+                    <a>Advanced</a>
+                    <i class="arrow down"></i>
+                </h2>
+            </div><!--card header-->
+
+            <div class="collapse" id="advanced">
+                <div class="card-block row mx-auto">
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/arch-top.jpg" alt="photo of wood arch top gate"></a>
+                        <h3 class="mx-auto">Gate</h3>
+                    </article>
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/woodshed.jpg" alt="photo of a wooden shed"></a>
+                        <h3 class="mx-auto">Shed</h3>
+                    </article>
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/cardtable.jpg" alt="photo of a card table"></a>
+                        <h3 class="mx-auto">Card Table</h3>
+                    </article>
+                    <article class="accordian-articles">
+                        <a><img src="../../images/content/customworkbench.jpg" alt="photo of a workbench"></a>
+                        <h3 class="mx-auto">Workbench</h3>
+                    </article>
+                </div><!--card-block-->
+            </div><!--collapse-->
+        </div><!--card-->
+    </div><!--container-->
 </div>
-
-<div class="container" id="htp-accordian">
-
-    <div class="card">
-
-        <div class="card-header" id="beginner-heading" data-toggle="collapse" data-parent="#htp-accordian" href="#beginner">
-            <h2>
-                <a>Beginner</a>
-                <i class="arrow down"></i>
-            </h2>
-        </div><!--card header-->
-
-        <div class="collapse" id="beginner">
-            <div class="card-block row mx-auto">
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/bench.jpg"></a>
-                    <h3 class="mx-auto">Bench</h3>
-                </article>
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/shoeorg.jpg"></a>
-                    <h3 class="mx-auto">Shoe Organizer</h3>
-                </article>
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/storagecontainer.jpg"></a>
-                    <h3 class="mx-auto">Magazine Holder</h3>
-                </article>
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/woodenchair.jpg"></a>
-                    <h3 class="mx-auto">Chair</h3>
-                </article>
-            </div>
-        </div>
-    </div><!--card-->
-    <div class="card">
-
-        <div class="card-header" id="intermediate-heading" data-toggle="collapse" data-parent="#htp-accordian" href="#intermediate">
-            <h2>
-                <a>Intermediate</a>
-                <i class="arrow down"></i>
-            </h2>
-        </div><!--card header-->
-
-        <div class="collapse" id="intermediate">
-            <div class="card-block row mx-auto">
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/farmhouse-dining-table.jpg"></a>
-                    <h3 class="mx-auto">Table</h3>
-                </article>
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/reclaimed%20wood%20shelf%20diy03.jpg"></a>
-                    <h3 class="mx-auto">Storage Shelf</h3>
-                </article>
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/lawnchair.jpg"></a>
-                    <h3 class="mx-auto">Lawn Chair</h3>
-                </article>
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/storagebox.jpg"></a>
-                    <h3 class="mx-auto">Storage Box</h3>
-                </article>
-            </div>
-        </div>
-    </div><!--card-->
-    <div class="card">
-
-        <div class="card-header" id="advanced-heading" data-toggle="collapse" data-parent="#htp-accordian" href="#advanced">
-            <h2>
-                <a>Tool Guide</a>
-                <i class="arrow down"></i>
-            </h2>
-        </div><!--card header-->
-
-        <div class="collapse" id="advanced">
-            <div class="card-block row mx-auto">
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/arch-top.jpg"></a>
-                    <h3 class="mx-auto">Gate</h3>
-                </article>
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/woodshed.jpg"></a>
-                    <h3 class="mx-auto">Shed</h3>
-                </article>
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/cardtable.jpg"></a>
-                    <h3 class="mx-auto">Card Table</h3>
-                </article>
-                <article class="accordian-articles">
-                    <a><img src="../../images/content/customworkbench.jpg"></a>
-                    <h3 class="mx-auto">Workbench</h3>
-                </article>
-            </div>
-        </div>
-    </div><!--card-->
-</div><!--container-->
 </body>
-<footer>
-    <p class="text-center fixed-bottom">&copy Trevor Molano, Full Sail University, 2018</p>
+<div class="push"></div>
+<footer class="footer">
+    <p class="text-center">&copy Trevor Molano, Full Sail University, 2018</p>
 </footer>
 <script src="../../node_modules/jquery/dist/jquery.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
