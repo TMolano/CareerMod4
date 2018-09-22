@@ -1,97 +1,25 @@
+.navbar-nav {
+  font-family: "Ava Meridian", Arial, serif; }
+  .navbar-nav a {
+    color: white;
+    font-size: 0.7rem; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .navbar-nav a {
+        font-size: 0.7rem; } }
+    @media (min-width: 1024px) and (max-width: 1440px) {
+      .navbar-nav a {
+        font-size: 1rem; } }
+
+#social {
+  width: fit-content; }
+  #social img {
+    width: 3rem;
+    padding: .1rem;
+    margin: 1rem; }
+
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg); }
-
-#logo {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%; }
-
-#banner {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%; }
-
-#social {
-  width: 100%; }
-  #social img {
-    width: 2rem;
-    padding: .1rem; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      #social img {
-        margin-right: .5rem; } }
-
-.article-thumb {
-  background: white; }
-
-.content-home {
-  margin-bottom: 3rem; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .content-home {
-      width: 100%; } }
-  @media (min-width: 1024px) and (max-width: 1440px) {
-    .content-home {
-      width: 100%; } }
-
-.content-h1 {
-  font-family: "Ava Meridian", Arial, serif;
-  font-size: 1rem; }
-
-.content-home-bg {
-  width: 100%;
-  height: 100%; }
-
-.content-images {
-  width: 100%;
-  height: 8rem; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .content-images {
-      height: 12rem; } }
-  @media (min-width: 1024px) and (max-width: 1440px) {
-    .content-images {
-      height: 15rem; } }
-
-.content-images-recent {
-  width: 100%;
-  height: 5rem; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .content-images-recent {
-      height: 8rem; } }
-  @media (min-width: 1024px) and (max-width: 1440px) {
-    .content-images-recent {
-      height: 10rem; } }
-
-.content-article {
-  width: 75%; }
-  .content-article h2 {
-    font-family: "Ava Meridian", Arial, serif;
-    font-size: 14px;
-    padding-top: .5rem; }
-
-.content-article-recent {
-  width: 50%; }
-  .content-article-recent h2 {
-    font-family: "Euphemia UCAS", Arial, serif;
-    font-size: 1rem;
-    padding-top: .5rem; }
-
-.content-h2 {
-  background: #176A90;
-  font-family: "Euphemia UCAS", Arial, serif;
-  font-size: .8rem;
-  padding: 0.2rem; }
-
-.page-description {
-  font-family: "Euphemia UCAS", Arial, serif;
-  font-size: .7rem; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .page-description {
-      font-size: 1rem; } }
-  @media (min-width: 1024px) and (max-width: 1440px) {
-    .page-description {
-      font-size: 1rem; } }
 
 .accordian-articles {
   width: 45%;
@@ -106,7 +34,8 @@
       width: 30%; } }
   @media (min-width: 1024px) and (max-width: 1440px) {
     .accordian-articles {
-      width: 20%; } }
+      width: 20%;
+      height: 10rem; } }
   .accordian-articles img {
     width: 100%;
     height: 80%; }
@@ -115,6 +44,9 @@
     font-size: .8rem;
     font-family: "Euphemia UCAS", Arial, serif;
     width: fit-content; }
+    @media (min-width: 1024px) and (max-width: 1440px) {
+      .accordian-articles h3 {
+        font-size: 1rem; } }
 
 .accordian-articles-resources {
   width: 100%;
@@ -150,6 +82,107 @@
       .accordian-articles-resources h4 {
         font-size: .8rem; } }
 
+.card {
+  margin-bottom: 1rem;
+  color: black; }
+
+.card-block {
+  padding: 0.5rem;
+  background: #062847; }
+
+.card-header {
+  background: #176A90;
+  color: white; }
+
+.form-control {
+  width: 100%; }
+
+.contact-form {
+  width: 50%; }
+  @media (min-width: 320px) and (max-width: 425px) {
+    .contact-form {
+      width: 75%; } }
+
+.link-tab {
+  font-size: 1rem; }
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%; }
+
+#banner {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%; }
+
+.content-home {
+  margin-bottom: 3rem; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .content-home {
+      width: 100%; } }
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .content-home {
+      width: 100%; } }
+
+.content-h1 {
+  font-family: "Ava Meridian", Arial, serif;
+  font-size: 1rem; }
+
+.content-home-bg {
+  width: 100%;
+  height: 100%; }
+
+.content-home-bg-recent {
+  width: 100%;
+  height: 100%; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .content-home-bg-recent {
+      width: 75%; } }
+
+.content-images {
+  width: 100%;
+  height: 8rem; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .content-images {
+      height: 12rem; } }
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .content-images {
+      height: 15rem; } }
+
+.content-images-recent {
+  width: 100%;
+  height: 5rem; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .content-images-recent {
+      width: 100%;
+      height: 8rem; } }
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .content-images-recent {
+      height: 10rem; } }
+
+.content-article {
+  width: 75%; }
+  .content-article h2 {
+    font-family: "Ava Meridian", Arial, serif;
+    font-size: 14px;
+    padding-top: .5rem; }
+
+.content-article-recent {
+  width: 50%; }
+  .content-article-recent h2 {
+    font-family: "Euphemia UCAS", Arial, serif;
+    font-size: 1rem;
+    padding-top: .5rem; }
+
+.content-h2 {
+  background: #176A90;
+  font-family: "Euphemia UCAS", Arial, serif;
+  font-size: .8rem;
+  padding: 0.2rem; }
+
 #avatar {
   width: 30%; }
 
@@ -158,13 +191,6 @@
   height: 100%; }
   #about h2, #contact h2 {
     font-family: "Ava Meridian", Arial, serif; }
-
-.card-header {
-  color: white; }
-
-input {
-  background: #17903D;
-  color: white; }
 
 #feedback {
   font-size: 1rem;
@@ -177,29 +203,22 @@ input {
 #methods a, #methods p {
   font-size: .9rem; }
 
-.form-control {
-  width: 100%; }
-
-.contact-form {
-  width: 50%; }
-  @media (min-width: 320px) and (max-width: 425px) {
-    .contact-form {
-      width: 75%; } }
-
 .wrapper {
   min-height: 100%;
   margin-bottom: -50px; }
 
-.card {
-  margin-bottom: 1rem;
-  color: black; }
+.footer, .push {
+  height: 50px; }
 
-.card-block {
-  padding: 0.5rem;
-  background: #062847; }
-
-.card-header {
-  background: #176A90; }
+.page-description {
+  font-family: "Euphemia UCAS", Arial, serif;
+  font-size: .7rem; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .page-description {
+      font-size: 1rem; } }
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .page-description {
+      font-size: 1rem; } }
 
 body, html {
   background: #0B3E5F;
@@ -216,18 +235,6 @@ header {
   header div {
     display: flex; }
 
-.navbar-nav {
-  font-family: "Ava Meridian", Arial, serif; }
-  .navbar-nav a {
-    color: white;
-    font-size: 0.7rem; }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .navbar-nav a {
-        font-size: 0.7rem; } }
-    @media (min-width: 1024px) and (max-width: 1440px) {
-      .navbar-nav a {
-        font-size: 1rem; } }
-
 ul {
   width: 70%;
   margin: 0 auto; }
@@ -243,7 +250,9 @@ label {
   font-family: "Euphemia UCAS", Arial, serif; }
 
 input {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  background: #17903D;
+  color: white; }
 
 h1 {
   font-family: "Ava Meridian", Arial, serif;

@@ -16,21 +16,6 @@ header{
   }
 }
 
-.navbar-nav{
-  font-family: $mainfont;
-
-  a{
-    color: white;
-    font-size: 0.7rem;
-    @include nav(tablet){
-      font-size: 0.7rem;
-    }
-    @include nav(pc){
-      font-size: 1rem;
-    }
-  }
-}
-
 ul{
   width: 70%;
   margin: 0 auto;
@@ -51,12 +36,15 @@ label{
 
 input{
   margin-bottom: 1rem;
+  background: #17903D;
+  color: white;
 }
 
 h1{
   font-family: $mainfont;
   font-size: 1rem;
 }
+
 h2{
   font-family: $pfont;
   font-size: 1rem;
@@ -71,7 +59,6 @@ h3{
   font-size: 2rem;
 }
 
-
 i {
   float: right;
   border: solid white;
@@ -79,5 +66,6 @@ i {
   display: inline-block;
   padding: 3px;
 }
+
 
 

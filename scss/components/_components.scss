@@ -1,4 +1,145 @@
+//-------NAVIGATION BAR-------
+
+.navbar-nav{
+  font-family: $mainfont;
+
+  a{
+    color: white;
+    font-size: 0.7rem;
+    @include nav(tablet){
+      font-size: 0.7rem;
+    }
+    @include nav(pc){
+      font-size: 1rem;
+    }
+  }
+}
+
+//-------SOCIAL MEDIA-------
+
+#social{
+  width: fit-content;
+  img {
+    width: 3rem;
+    padding: .1rem;
+    margin: 1rem;
+  }
+}
+
+//-------ACCORDIAN CSS-------
+
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+
+.accordian-articles{
+  width: 45%;
+  height: 7rem;
+  margin: .4rem;
+  background: #176A90;
+  border-radius: .5rem;
+  &:hover{
+    background: #13A2E5;
+  }
+  @include nav(tablet){
+    width: 30%;
+  }
+  @include nav(pc){
+    width: 20%;
+    height: 10rem;
+  }
+
+
+  img{
+    width: 100%;
+    height: 80%;
+  }
+
+  h3{
+    color: white;
+    font-size: .8rem;
+    font-family: $pfont;
+    width: fit-content;
+    @include nav(pc){
+      font-size: 1rem;
+    }
+  }
+}
+
+.accordian-articles-resources {
+  width: 100%;
+  height: 5rem;
+  background: #176A90;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+
+  &:hover{
+    background: #13A2E5;
+  }
+  @include nav(pc) {
+    width: 100%;
+    height: 7rem;
+  }
+
+  img {
+    width: 50%;
+    height: 5rem;
+    @include nav(pc) {
+      height: 7rem;
+    }
+  }
+  h3, h4 {
+    color: white;
+    padding: .2rem;
+    font-size: .7rem;
+    font-family: $pfont;
+    width: 100%;
+    @include nav(pc) {
+      font-size: 1rem;
+    }
+  }
+  h4 {
+    font-size: .2rem;
+    width: 100%;
+    @include nav(pc) {
+      font-size: .8rem;
+    }
+  }
+}
+
+//-------CARDS-------
+
+.card{
+  margin-bottom: 1rem;
+  color: black;
+
+}
+
+.card-block{
+  padding: 0.5rem;
+  background: #062847;
+
+}
+
+.card-header{
+  background: #176A90;
+  color: white;
+}
+
+//-------FORM-------
+
+.form-control {
+  width: 100%;
+}
+
+.contact-form {
+  width: 50%;
+  @include nav(mobile) {
+    width: 75%;
+  }
+}
+
+.link-tab{
+  font-size: 1rem;
 }
